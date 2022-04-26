@@ -8,9 +8,9 @@ class JSample1_4{
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     JPanel p = new JPanel();
-    JLabel btn1 = new JLabel("Hello World!!");
+    JLabel label1 = new JLabel("Hello World!!");
 
-    p.add(btn1);
+    p.add(label1);
 
     frame.getContentPane().add(p, BorderLayout.CENTER);
     frame.setVisible(true);
